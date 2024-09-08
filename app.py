@@ -35,9 +35,9 @@ if btn:
         output_array = rembg.remove(input_array)
         output_image = Image.fromarray(output_array)
         output_image = output_image.convert("RGB")
-        output_image.save('remove.png')
-        st.image("remove.png")
+        output_image.save('clearbg.png')
+        st.image("clearbg.png")
         with open("remove.png","rb") as img:
-            st.download_button("Download",img,"remove.png")
+            st.download_button("Download",img,"clearbg.png")
     except:
         st.error("Something Went Wrong!")
