@@ -24,20 +24,21 @@ else:
 btn=st.button("Remove")
 if btn:
     try:
-        if opt=="Via URL" and len(opt)>=5:
-            with open("upload.jpg","wb") as img:
-                img.write(requests.get(url).content)
+        with st.spinner("Almost there! Just a moment..."):
+            if opt=="Via URL" and len(opt)>=5:
+                with open("upload.jpg","wb") as img:
+                    img.write(requests.get(url).content)
                 input_image = Image.open("upload.jpg")
-        else:
-            input_image = Image.open(file)
+            else:
+                input_image = Image.open(file)
 
-        input_array = np.array(input_image)
-        output_array = rembg.remove(input_array)
-        output_image = Image.fromarray(output_array)
-        output_image = output_image.convert("RGB")
-        output_image.save('clearbg.png')
-        st.image("clearbg.png")
-        with open("remove.png","rb") as img:
-            st.download_button("Download",img,"clearbg.png")
+            input_array = np.array(input_image)
+            output_array = rembg.remove(input_array)
+            output_image = Image.fromarray(output_array)
+            output_image = output_image.convert("RGB")
+            output_image.save('clearbg.png')
+            st.image("clearbg.png")
+            with open("clearbg.png","rb") as img:
+                st.download_button("Download",img,"clearbg.png")
     except:
         st.error("Something Went Wrong!")
