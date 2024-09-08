@@ -1,5 +1,5 @@
 streamlit
 rembg
 numpy
-PIL
+Pillow
 requests
