@@ -27,8 +27,8 @@
 Clone this repo and install dependencies:
 
 ```bash
-git clone https://github.com/yourusername/clear-bg.git
-cd clear-bg
+git clone https://github.com/KrishBharadwaj5678/ClearBG.git
+cd clearbg
 pip install -r requirements.txt
 ````
 
@@ -61,4 +61,5 @@ We welcome contributions! Follow these steps to get started:
    ```bash
    git push origin feature/your-feature-name
    ```
+   
 6. 📝 **Open a Pull Request** and describe what you’ve done.
