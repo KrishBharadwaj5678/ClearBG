@@ -3,3 +3,6 @@ rembg
 numpy
 Pillow
 requests
+onnxruntime
+pymatting
+scikit-image
