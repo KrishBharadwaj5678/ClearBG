@@ -1,7 +1,6 @@
 # 🧼 Clear BG — Instantly Remove Image Backgrounds
 
-✨ Instantly remove backgrounds from any image with **Clear BG**! Upload your photo, erase the unwanted background with AI, and download the clean, transparent result — all in seconds.
-
+🧽 Clean up your images in seconds with **Clear BG**! Effortless background removal, no design skills required, and high-quality results every time. 
 ---
 
 ## 🚀 Features
@@ -62,5 +61,3 @@ We welcome contributions! Follow these steps to get started:
    git push origin feature/your-feature-name
    ```
 6. 📝 **Open a Pull Request** and describe what you’ve done.
-
----
