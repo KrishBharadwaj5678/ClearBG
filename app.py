@@ -21,7 +21,7 @@ if opt=="Upload Image":
 else:
     url=st.text_input("Enter URL",placeholder="Image URL")
 
-btn=st.button("Remove")
+btn=st.button("Remove BG")
 if btn:
     try:
         with st.spinner("Almost there! Just a moment..."):
