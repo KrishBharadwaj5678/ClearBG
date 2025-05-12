@@ -1,6 +1,7 @@
-# 🧼 Clear BG — Instantly Remove Image Backgrounds
+# 🧼 Clear BG — Instantly Background Removal
 
-🧽 Clean up your images in seconds with **Clear BG**! Effortless background removal, no design skills required, and high-quality results every time. 
+**🧽 Clean up your images in seconds with **Clear BG**! Effortless background removal, no design skills required, and high-quality results every time.
+
 ---
 
 ## 🚀 Features
