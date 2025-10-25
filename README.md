@@ -2,7 +2,7 @@
 
 🧽 Clean up your images in seconds with **Clear BG**! Effortless background removal, no design skills required, and high-quality results every time. 
 
-![ClearBG](https://github.com/KrishBharadwaj5678/ClearBG/raw/main/ClearBgDemo.png)
+![ClearBG](https://github.com/KrishBharadwaj5678/ClearBG/blob/main/ClearBGDemo.png)
 
 ## 🚀 Features
 
