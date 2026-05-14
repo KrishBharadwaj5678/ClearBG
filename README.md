@@ -1,6 +1,6 @@
 # 🧼 Clear BG
 
-🧽 Clean up your images in seconds with **Clear BG**! Effortless background removal, no design skills required, and high-quality results every time. 
+Clean up your images in seconds with **Clear BG**! Effortless background removal, no design skills required, and high-quality results every time. 
 
 ![ClearBG](https://github.com/KrishBharadwaj5678/ClearBG/blob/main/ClearBGDemo.png)
 
@@ -30,42 +30,26 @@
 
 ## 📦 Installation
 
-Clone this repo and install dependencies:
+### 1️⃣ Clone this repository:
 
-```bash
+```bash id="zv11yr"
 git clone https://github.com/KrishBharadwaj5678/ClearBG.git
-cd ClearBG
-pip install -r requirements.txt
-````
-
----
-
-## ▶️ Run the App
-
-```bash
-streamlit run app.py
 ```
 
-## 🔧 Contributions
+### 2️⃣ Navigate to the project folder:
 
-We welcome contributions! Follow these steps to get started:
+```bash id="t72x9p"
+cd ClearBG
+```
 
-1. 🍴 **Fork** the repository
-2. 📥 **Clone** your forked repo:
-3. 🛠️ **Create a new branch**:
+### 3️⃣ Install dependencies:
 
-   ```bash
-   git checkout -b feature/your-feature-name
-   ```
-4. ✏️ **Make your changes** and commit:
+```bash id="mf11u9"
+pip install -r requirements.txt
+```
 
-   ```bash
-   git commit -m "Add: your concise feature description"
-   ```
-5. 🔄 **Push to GitHub**:
+### 4️⃣ Start the application:
 
-   ```bash
-   git push origin feature/your-feature-name
-   ```
-   
-6. 📝 **Open a Pull Request** and describe what you’ve done.
+```bash id="n5th0r"
+streamlit run app.py
+```
