@@ -1,3 +1,5 @@
+[English](README.md) | [Português](README.pt.md) | [日本語](README.ja.md) | [Русский](README.ru.md)
+
 # 🧼 Clear BG
 
 Clean up your images in seconds with **Clear BG**! Effortless background removal, no design skills required, and high-quality results every time. 
